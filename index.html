@@ -1,0 +1,123 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1 JavaScripts</title>
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <div class="container-1">
+      <h2>Challenge 1: Your Age in Year</h2>
+      <div class="flex-box-container-1">
+        <div>
+          <button class="button button2" onclick="clickOnMe()">
+            Click me
+          </button>
+        </div>
+        <div>
+          <button class="button button1" onclick="reset()">Reset</button>
+        </div>
+      </div>
+      <div class="flex-box-container-1">
+        <div id="flex-box-result"></div>
+      </div>
+    </div>
+    <div class="container-2">
+      <h2>Challenge 2: Generate Doremon</h2>
+      <button
+        class="button-cl2 button3"
+        id="generateButton"
+        onclick="generateDoremon()"
+      >
+        Generate Doremon
+      </button>
+      <div class="flex-box-container-2" id="flex-doremon"></div>
+    </div>
+    <div class="container-3">
+      <h2>Challenge 3: Rock, Paper, Scissors</h2>
+      <div class="flex-box-container-3" id="flex-rps-div">
+        <img
+          id="rock"
+          src="https://images-na.ssl-images-amazon.com/images/I/71lkx%2BIsNgL.png"
+          height="250"
+          width="150"
+          alt=""
+          onclick="rpsFunction(this)"
+        />
+        <img
+          id="paper"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQqI-yPyBiBy40ZcozCe9OTqM1fRWO_qLw3loE0ClFVXJLjKpA0&usqp=CAU"
+          height="250"
+          width="150"
+          alt=""
+          onclick="rpsFunction(this)"
+        />
+        <img
+          id="scissors"
+          src="https://cdn.clipart.email/2f247451535e2790125f81eeadf9f477_rock-paper-scissors_480-800.png"
+          height="250"
+          width="150"
+          alt=""
+          onclick="rpsFunction(this)"
+        />
+      </div>
+    </div>
+    <div class="container-4">
+      <h2 id="change-my-color">Challenge 4: Change the Color of All Button</h2>
+      <div class="flex-box-pick-color">
+        <form action="">
+          <select
+            name="backdrop"
+            id="background"
+            onchange="butttonColorChange(this)"
+          >
+            <option value="random">Random</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="reset">Reset</option>
+          </select>
+        </form>
+        <button class="btn btn-primary">Wee!</button>
+        <button class="btn btn-danger">Yahoo!</button>
+        <button class="btn btn-warning">Google!</button>
+        <button class="btn btn-success">Facebook!</button>
+      </div>
+    </div>
+    <div class="container-5">
+      <h2>Challenge 5: Blackjack</h2>
+      <h2><span id="blackjack-result">Let's Play</span></h2>
+      <div class="flex-box-blackjack-row1">
+        <div id="yourbox">
+          <h2>You: <span id="yourscore">0</span></h2>
+        </div>
+        <div id="computerbox">
+          <h2>Computer:<span id="botscore">0</span></h2>
+        </div>
+      </div>
+      <div class="flex-box-blackjack-row2">
+        <button class="btnrow btn-primary" id="blackjack-hitButton">Hit</button>
+        <button class="btnrow btn-warning" id="blackjack-standButton">
+          Stand
+        </button>
+        <button class="btnrow btn-danger" id="blackjack-dealButton">
+          Deal
+        </button>
+      </div>
+      <div class="flex-box-blackjack-row3">
+        <table>
+          <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+          </tr>
+          <tr>
+            <td><span id="wins">0</span></td>
+            <td><span id="losses">0</span></td>
+            <td><span id="draws">0</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="static/js/script.js"></script>
+  </body>
+</html>

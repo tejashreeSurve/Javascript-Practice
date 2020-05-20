@@ -1,0 +1,214 @@
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+  text-align: center;
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  height: 30px;
+}
+table {
+  margin: auto;
+  width: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+}
+.flex-box-container-1,
+.flex-box-container-3,
+.flex-box-pick-color {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.flex-box-blackjack-row1 h2 {
+  width: 100%;
+  height: 20px;
+}
+
+.flex-box-blackjack-row1 {
+  display: flex;
+  border: 1px solid black;
+  background: linear-gradient(to right, #021f02, #046404, #002700);
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flex-box-blackjack-row1 div {
+  display: flex;
+  border: 1.3px solid black;
+  color: white;
+  flex: 1;
+  height: 350px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.flex-box-blackjack-row1 div img {
+  display: flex;
+  min-width: 10px;
+  min-height: 20px;
+  max-width: 100px;
+  max-height: 150px;
+  justify-content: center;
+  padding: 0.5px;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.flex-box-blackjack-row2 {
+  display: flex;
+  /* border: 1px solid black;*/
+  padding-right: 10px;
+  background: linear-gradient(to right, #013001, #015e01, #013001);
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.flex-box-blackjack-row3 {
+  display: flex;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.flex-box-container-2 {
+  display: flex;
+  border: 1px solid black;
+  padding: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.flex-box-container-2 img {
+  padding: 30px;
+}
+.flex-box-container-3 img {
+  padding: 20px;
+}
+
+.flex-box-container-3 img:hover {
+  box-shadow: 0px 10px 50px orangered;
+}
+
+.flex-box-container-1 div,
+.flex-box-container-1 div {
+  padding: 10px;
+}
+select {
+  padding: 12px 23px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: lightgray;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 19px 40px;
+  text-align: center;
+  box-shadow: 2px 2px 4px#555555;
+  border-radius: 7px;
+  text-decoration: whitesmoke;
+  display: inline-block;
+  font-size: large;
+}
+.button-cl2 {
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  /*add space below the button*/
+  margin-bottom: 20px;
+  border-radius: 7px;
+  text-align: center;
+  text-decoration: whitesmoke;
+  display: inline-flex;
+  font-size: large;
+  box-shadow: 2px 2px 4px#555555;
+}
+
+.button1 {
+  background-color: red;
+}
+
+.button1:active {
+  background-color: crimson;
+}
+.button2 {
+  background-color: dodgerblue;
+}
+
+.button2:active {
+  background-color: deepskyblue;
+}
+
+.button3 {
+  background-color: forestgreen;
+}
+.button3:active {
+  background-color: green;
+}
+
+.btn {
+  border: none;
+  color: whitesmoke;
+  padding: 12px 23px;
+  /*add space below the button*/
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: whitesmoke;
+  display: inline-flex;
+  border-radius: 7px;
+  font-size: large;
+  box-shadow: 2px 2px 4px#555555;
+}
+
+.btnrow {
+  border: none;
+  color: whitesmoke;
+  padding: 12px 23px;
+  /*add space below the button*/
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: whitesmoke;
+  display: inline-flex;
+  border-radius: 7px;
+  font-size: large;
+  box-shadow: 2px 2px 4px#555555;
+}
+.btn-primary {
+  background-color: dodgerblue;
+}
+.btn-danger {
+  background-color: red;
+}
+
+.btn-warning {
+  background-color: yellow;
+  color: darkslategray;
+}
+.btn-success {
+  background-color: green;
+}
